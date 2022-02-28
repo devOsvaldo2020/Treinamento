@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div id="page">
+    <h1 id="header">Lista</h1>
+    <h2>Minhas Compras</h2>
+    <ul>
+      <li id="one" class="element"><em>peixe</em> fresco</li>
+      <li id="two" class="element">verduras</li>
+      <li id="three" class="element" style="font-size: 48px;">carnes</li>
+      <li id="four">legumes</li>
+    </ul>
+    <script src="js/script.js"></script>
+    <script>
+      // var el = document.querySelectorAll('.element');
+      // var el = document.getElementsByTagName('li');
+      // var el = document.getElementsByClassName('element');
+      // var el = document.querySelector('.element');
+      // var el = document.getElementById('one');
+      // console.log(el);
+      // console.log(el.parentNode);  
+      // console.log(el.previousSibling);
+      // console.log(el.nextSibling);
+      // console.log(el.firstChild);
+      // console.log(el.lastChild);
+      // console.log(el.lastChild.nodeValue);
+
+      // trabalhando com manipulacao do DOM
+
+      // adicionando na lista
+      // cria o li e o texto
+      // let criandoLi = document.createElement('li');
+      // let criandoTexto = document.createTextNode('compras');
+      // let criandoClass =  document.getElementById('btn2').classList.add('active'); // atribui um class
+      // criandoClass =document.getElementById('btn1').classList.remove('active');
+      // coloca o texto no li
+      // criandoLi.appendChild(criandoTexto);
+      // pega a tag " ul " e coloca o ' li ' dentro dela
+      // let list = document.getElementsByTagName('ul')[0];
+      // list.appendChild(criandoLi);
+
+      // removendo da lista
+      // pega a 1* ul
+      // let list2 = document.getElementsByTagName('ul')[0];
+      // pega a li pelo id
+      // let removeEl = document.getElementById('two');
+      // remove a li selecionada
+      // list2.removeChild(removeEl);
+
+      // console.log(list2);
+      // console.log(list);
+      // console.log(list.childElementCount);
+      // console.log(criandoLi);
+      // console.log(criandoLi.innerHTML);
+      // console.log(criandoTexto.nodeValue);
+
+
+      // metodos e atributos
+      // let getAtributos = document.querySelector('li').id;
+      // let getAtributos = document.querySelector('li').className;
+      // let getAtributos = document.querySelectorAll('li').classList;
+      // console.log(getAtributos);
+      // 
+      // let getEl_01 = document.querySelectorAll('li').length; // aqui vejo qnt tem
+      // console.log(getEl_01);
+      // getEl_01 = document.querySelector('li'); // aqui só o primeiro
+      // getEl_01 = document.querySelectorAll('li')[1]; // aqui escolho qual quero
+      // if (getEl_01.hasAttribute('class')) { // verifico se tem atributo class ou id.
+      //   console.log('Existe atributos no elemento: TRUE');      
+      // }else{
+      //   console.log('Existe atributos no elemento: FALSE');      
+      // }
+
+      // // get atributos
+      // let getEl_02 = document.querySelector('li').getAttribute('id');
+      // console.log(getEl_02); // mostra qual é o atributo do id selecionado, neste caso o primeiro.
+      // getEl_02 = document.querySelectorAll('li')[2].getAttribute('id');
+      // console.log(getEl_02); // mostra qual é o atributo do id selecionado, neste caso o terceiro.
+      
+      // setAtribute
+      // let getEl_03 = null;
+      // getEl_03 = document.getElementById('four').setAttribute('style', 'background: red');
+
+      // getEl_03 = document.querySelectorAll('li')[2].setAttribute('style',  'color: #fff; background: #000; font-size: 48px;');
+      // getEl_03 = document.querySelectorAll('li')[1].setAttribute('style',  'color: #ff0; background: #00f');
+      // getEl_03 = document.querySelectorAll('li')[0].setAttribute('style',  'color: #f00; background: #0ff; font-size: 24px');
+
+      // removeAttribute
+      // let getEl_04 = null;
+      // getEl_04 = document.getElementById('three').removeAttribute('style');
+
+      
+
+
+
+
+
+    </script>
+  </div>
+
+</body>
+
+</html>

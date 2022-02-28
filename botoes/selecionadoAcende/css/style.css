@@ -1,0 +1,12 @@
+.btn{
+    margin: 1rem;
+    border: none;
+    padding: 2rem 2rem;
+    color: #fff;
+    border-radius: .4rem;
+    background-color: rgb(206, 208, 209);
+  }
+.active{
+    background: blue;
+}
+

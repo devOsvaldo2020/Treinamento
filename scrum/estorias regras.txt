@@ -1,0 +1,12 @@
+SCRUM
+
+escrevendo uma estoria
+
+Nome da estoria:
+Descricao da estória(eu, como, quero, quando)
+Regras de negocio(separa regras front-end e back-end)
+Tela(link ou imagem das telas a serem desenvolvidas)
+KPI(quais os objetivos/valor a estoria precisa atingir)
+Tagueamento(como a estoria sera tagueada para poder mensurar os kpi)
+Criterios de aceite(qual o passo a passo de todos os caminhos felizes
+	possiveis a estoria deve cumiprir para que ela seja considerada aceita)
