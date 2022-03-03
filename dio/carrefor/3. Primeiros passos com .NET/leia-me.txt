@@ -11,6 +11,7 @@ objetivo da aula
 2. como funciona?
 3. estrutura de progrtama.
 
+aula 3
 
 estrutura de progrtama
 
@@ -23,4 +24,34 @@ estrutura de progrtama
 No debug: f10 (proxima linha)e f11 (entra no código);
 
 atalho ctrl + . : abra uma lista.
+
+aula 4
+
+1. tipos e variavel
+2. instrucoes
+3. arrays
+
+instrucoes
+
+- declaracoes de variaveis e constantes
+- if
+- switch
+- while
+- do
+- for
+- foreach
+
+instrucoes auxiliares
+
+. break
+. continue
+. return
+. throw
+. try .. catch .. finally
+. using
+
+aula 5 
+
+O que são Classes e Objetos em C#?
+
 
