@@ -11,3 +11,16 @@ objetivo da aula
 2. como funciona?
 3. estrutura de progrtama.
 
+
+estrutura de progrtama
+
+- programas
+- namespaces
+- tipos
+- membros
+- assemblies
+
+No debug: f10 (proxima linha)e f11 (entra no código);
+
+atalho ctrl + . : abra uma lista.
+
