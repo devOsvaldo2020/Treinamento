@@ -1,0 +1,13 @@
+o que é e como funciona a c#?
+
+links
+PROF: https://about.me/gabrielfaraday
+
+objetivo da aula 
+
+1. o que é c#?
+   - compilador do c# é o roslyn.
+   - arquivo execultavel assembly .exe .dll
+2. como funciona?
+3. estrutura de progrtama.
+
