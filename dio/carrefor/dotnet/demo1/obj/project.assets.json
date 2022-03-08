@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\junio\\estudando\\clone git\\Treinamento\\dio\\carrefor\\Revisao\\Revisao.csproj",
-      "projectName": "Revisao",
-      "projectPath": "C:\\Users\\junio\\estudando\\clone git\\Treinamento\\dio\\carrefor\\Revisao\\Revisao.csproj",
+      "projectUniqueName": "c:\\Users\\junio\\OneDrive\\Área de Trabalho\\dotnet\\dotnet.csproj",
+      "projectName": "dotnet",
+      "projectPath": "c:\\Users\\junio\\OneDrive\\Área de Trabalho\\dotnet\\dotnet.csproj",
       "packagesPath": "C:\\Users\\junio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\junio\\estudando\\clone git\\Treinamento\\dio\\carrefor\\Revisao\\obj\\",
+      "outputPath": "c:\\Users\\junio\\OneDrive\\Área de Trabalho\\dotnet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\junio\\AppData\\Roaming\\NuGet\\NuGet.Config"
