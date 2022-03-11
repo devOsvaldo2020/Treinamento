@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEYUP</title>
+</head>
+
+<body>
+    <h1>EVENTO KEYUP</h1>
+    <p>Toda vez que SOLTAR UMA TECLA do elemento faz alguma
+        coisa. (faz um evento)</p>
+    <input type="text" id="search">
+    <div id="result">Nenhum resultado</div>
+    <script>
+        // salvando os input nas variaveis
+        var textoDigitado = document.getElementById("search");
+        var resultado = document.getElementById("result");
+       
+        // registrar o evento
+        textoDigitado.addEventListener("keyup", function () {
+           resultado.innerHTML = this.value;           
+        });
+    </script>
+</body>
+
+</html>

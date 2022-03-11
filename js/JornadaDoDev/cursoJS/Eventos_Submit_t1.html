@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUBMIT</title>
+    <style>
+        .error {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>EVENTO SUBMIT</h1>
+    <p>Toda vez que ENVIADO faz uma ação. (faz um evento)</p>
+
+    <form action="#" method="post">
+        <input type="text" name="name" value="junior">
+        <input type="email" name="email" value="teste@teste.com.br">
+        <button type="submit">enter</button>
+    </form>
+    <script>
+        // salvando os input nas variaveis
+        var form = document.querySelector("form");
+
+        // registrar o evento
+        form.addEventListener("submit", function (evento) {
+            evento.preventDefault(); // evita atualizar a pagina
+            var isvalid = true;
+
+            for (let i = 0; i < this.elements.length; i++) {
+                var item = this.elements[i];
+                if (item.type !== "submit") { // se diferente de submit
+                    if (item.value == "") {   // se for vazio
+                        item.classList.add("error");
+                        isvalid = false;
+                    } else {
+                        item.classList.remove("error");
+                    }
+                }  // verifica se não é submit
+            } //pega todos os item do form
+            console.log(isvalid);
+        })
+    </script>
+</body>
+
+</html>

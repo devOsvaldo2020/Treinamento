@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEYPRESS</title>
+</head>
+
+<body>
+    <h1>EVENTO KEYPRESS</h1>
+    <p>Toda vez que PRESSIONAR UMA TECLA do elemento o evento pega o
+        keycode da tecla. (faz um evento)</p>
+
+    <input type="text" id="text">
+    <div id="result" style="display: none;">Voce teclou o enter</div>
+    <script>
+        // salvando os input nas variaveis
+        var textoDigitado = document.getElementById("text");
+        var resultado = document.getElementById("result");
+        const teclaDigitadaForEnter = 13; // o keycode do enter é 13 mesmo.
+
+        // registrar o evento
+        textoDigitado.addEventListener("keypress", function (event) {
+            if (event.keyCode == teclaDigitadaForEnter) {
+                resultado.style.display = "block";
+            }
+        });
+    </script>
+</body>
+
+</html>
