@@ -5,21 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JQUERY</title>
+    <title>JQUERY seletor</title>
 </head>
 
 <body>
     <h1>Jquery</h1>
-    <p>Como instalar o Jquery no HTML</p>
-    <a href="https://jquery.com/download/">Link para download do
+    <p>Seletores do Jquery</p>
+    <a href="https://api.jquery.com/all-selector/">Link para seletores do
         <em><b>JQUERY</b></em></a>
+    
+    <p class="p1">lorem1</p>
+    <p>lorem2</p>
+    <p id="p2"></p>
+    <p data-aula="p3"></p>
         
     <!-- // caminho do jquery no seu micro -->
     <script src="jquery/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
+
     <!-- seu script js -->
     <script>
-        // codigo js aqui
+        var p1 = $('.p1'); //com jQuery, pega class
+        var p2 = $('#p2'); //com jQuery, pega id
+        // com o js faziamos assim...
+        // var p1 = document.getElementsByClassName("p1"); // com js
+        // var p1 = document.querySelector(".p1"); // com js
     </script>
+    <!-- no seletor do jQuery tudo vai vim como um array -->
 </body>
 
 </html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery evento</title>
+    <style>
+        .box {
+            position: relative;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            border-radius: 10px;
+        }
+        button{
+            font-size: 2rem;
+            background-color: #000;
+            color: #fff;
+            padding: 2rem;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Jquery</h1>
+    <p>Evento do Jquery</p>
+    <p>Link para evento do <a href="https://api.jquery.com/category/events/">
+            <em><b>JQUERY</b></em></a></p>
+    <br><br>
+    <div class="box"></div>
+    <hr>
+    <button id="next">next</button>
+    <button id="prev">prev</button>
+
+    <!-- // caminho do jquery no seu micro -->
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
+
+    <!-- seu script js -->
+    <script>
+        // pegando as variaveis
+        var box = $('.box');
+        var next = $('#next');
+        var prev = $('#prev');
+
+        next.on("click",function () {
+           box.animate({
+               left: 1000
+           }, 3000);
+        });
+        prev.on("click",function () {
+           box.animate({
+               left: 0
+           }, 3000);
+        });
+    </script>
+    <!-- sintaxe == var.evento(funcao(){}) // assim funciona -->
+    <!-- sintaxe == var.on("evento", funcao(){}) // assim mais usada -->
+</body>
+
+</html>

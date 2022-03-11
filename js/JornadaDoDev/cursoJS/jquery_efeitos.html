@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery efeitos</title>
+    <style>
+        .box {
+            position: relative;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Jquery</h1>
+    <p>Efeitos do Jquery</p>
+    <p>Link para efeitos do <a href="https://api.jquery.com/category/effects/">
+            <em><b>JQUERY</b></em></a></p>
+    <br><br>
+    <div class="box"></div>
+    <hr>
+
+    <!-- // caminho do jquery no seu micro -->
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
+
+    <!-- seu script js -->
+    <script>
+        var box = $('.box'); // pega a classe box do html
+        box.animate({
+            width: "200px",
+            height: "200px",
+            left: "500"
+        }, 5000);
+    </script>
+    <!-- sintaxe == box.amimate({um obj}, tempo) -->
+</body>
+
+</html>
