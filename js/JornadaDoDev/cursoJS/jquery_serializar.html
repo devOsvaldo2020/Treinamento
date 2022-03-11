@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Serialize</title>
+    <style>
+        form{  
+            display: block;         
+            align-content: center;
+            text-align: center;
+            padding: 15px;
+            margin: 10px;            
+        }
+        label, input{
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Jquery</h1>
+    <p>Serialize do Jquery</p>
+    <p>Link para Serialize do <a href="https://api.jquery.com/">
+            <em><b>JQUERY</b></em></a></p>
+    <hr>
+        <div class="conteiner">
+            <form action="">
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" id="cep" placeholder="00000-000"> <br>
+                <label for="logradouro">Logradouro</label>
+                <input type="text" name="logradouro" id="logradouro" placeholder="Av. exemplo e tal"> <br> 
+                <button>Submit</button>
+            </form>
+        </div>
+
+   <div class="resultado"></div>
+
+    <!-- // caminho do jquery no seu micro -->
+    <!-- <script src="jquery/jquery-3.6.0.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <!-- seu script js -->
+    <script>
+        // pegando as variaveis
+        var button = $('button');
+        var mensagem = $('.mensagem');
+        
+        button.on("click", function () { // executa evento
+            // "slow" - 1000 ms
+            // "fast" - 500 ms
+            mensagem.delay(2000).fadeOut();
+        });
+    </script>
+    <!-- sintaxe == var.delay(x segundo).evento(); // o delay fica entre o evento -->
+    
+</body>
+
+</html>
