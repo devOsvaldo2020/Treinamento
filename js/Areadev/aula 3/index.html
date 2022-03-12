@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navegando entre os dom</title>
+</head>
+
+<body>
+    <ul>
+        <li id="one" class="element"><em>peixe </em>fresco</li>
+        <li id="two" class="element">verdura</li>
+        <li id="three" class="element">carne</li>
+        <li id="four">legume</li>
+    </ul>
+    <script>
+        // parentNode
+        // previousSibling / nextSibling
+        // firstChild/lastChild
+        // nodeValue
+        // innerHTML
+        // innerText
+
+        let el = document.getElementById("one");
+        console.log(el.parentNode); // retorna o pai (ul)
+        console.log(el.previousSibling); // retorna o irmao (#text)
+        console.log(el.nextSibling); // retorna o irmao (#text)
+        console.log(el.firstChild); // retorna o primeiro elemento do one/atual (em)
+        console.log(el.lastChild); // retorna o ultimo elemento do one/atual (#text)
+        console.log(el.lastChild.nodeValue); // retorna o valor do ultimo elemento do one/atual (#text)
+        console.log(el.innerHTML); // retorna o valor completo 
+        console.log(el.innerText); // retorna o valor de todo a texto.
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manioulando o DOM</title>
+</head>
+
+<body>
+
+    <ul>
+        <li id="one" class="element"><em>peixe </em>fresco</li>
+        <li id="two" class="element">verdura</li>
+        <li id="three" class="element">carne</li>
+        <li id="four">legume</li>
+    </ul>
+
+    <script>
+        let el = document.createElement("li");
+        let text = document.createTextNode("frutas");
+        let text2 = document.createTextNode(" deliciosas");
+        el.appendChild(text);
+        el.appendChild(text2);
+
+        let lista = document.getElementsByTagName("ul")[0];
+        lista.appendChild(el);
+        // lista.removeChild(el);
+
+        let remove = document.getElementsByTagName("ul")[0];
+        remove.removeChild(el);
+
+        console.log(lista);
+        console.log(el.outerText);
+        console.log(el.textContent);
+        console.log(el.innerHTML);
+        console.log(el.innerText);
+
+    </script>
+</body>
+
+</html>

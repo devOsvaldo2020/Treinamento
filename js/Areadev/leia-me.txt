@@ -1,0 +1,33 @@
+Link do curso: https://www.youtube.com/watch?v=FVfMKxmdGYs&list=PLcQQun5wwBt6UHHlRv6wcFVgahOHPAhWb
+
+Estudando js em 2022. seguindo este curso nesta data 12/03/2022.
+
+usando em primeiro o git no cmd
+
+git clone da pasta do meu repositorio
+git status
+git add .
+git commit -m "alguma coisa"
+e por fim o
+git push origin main, para atualizar tudo.
+
+-- usndo o git no vscode.
+-- usando as estensões: live serve, browser Preview e Debugger for Chrome
+
+bora codar.
+
+vendo a aula 1, fiz aparecer na tela a data e hora e deixei ela contando. chamei de agora, tipo o agora() do excell.
+tipo um relogio.
+Usei o setInterval e o toLocaleString.
+
+aula de DOM:
+-- temos 4 nó:
+        -> nó Document = que é todo o código.
+        -> nó Element = que são as tags.
+        -> nó Atributs = que são os ids e class.
+        -> nó Text = que são as escritas entre as tags.
+
+-- Cada nós é um objeto com metodos e propriedades.
+
+
+
